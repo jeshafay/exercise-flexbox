@@ -1,0 +1,33 @@
+body {
+font-family: "Sono", sans-serif;
+}
+
+/* Hint: What can you do with a media query and flexbox? */
+@media (max-width: 1250px) {
+}
+
+.pricing-container {
+    display: flex;
+    flex-direction: row;
+    margin-top: 250px;
+    justify-content: center;
+    align-content: flex-end;
+    
+    gap: 20px;
+}
+
+.pricing-container div {
+
+    background-color: rgb(222, 222, 222);
+    padding: 10px;
+}
+
+.plan-title {
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+.pricing-plan {
+    flex-direction: column;
+    align-items: center;
+}
