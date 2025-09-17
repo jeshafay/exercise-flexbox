@@ -1,5 +1,5 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: "Sono", sans-serif;
     margin: 0;
     padding: 0;
 }
@@ -41,16 +41,16 @@ body {
 .plan-title {
     font-weight: bold;
     font-size: 1em;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Sono", Helvetica, sans-serif;
     margin-bottom: 5px;
 }
 
 .plan-price {
     font-size: 28px;
     font-weight: 700;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Sono", Helvetica, sans-serif;
     margin-top: 0;  
-    margin-bottom: 15px;
+    margin-bottom: 20px;
 }
 
 .plan-features {
@@ -60,9 +60,10 @@ body {
     list-style: none;
     padding: 0;
     margin: 0 0 0px;
-    font-weight: bold;
-    font-family: "Courier New", monospace;
+    align-items: center;
+    font-family: "Sono", monospace;
     margin-bottom: 40px;
+    gap: 5px;
 }
 
 .plan-button {
