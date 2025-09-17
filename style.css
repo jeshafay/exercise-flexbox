@@ -4,14 +4,6 @@ body {
     padding: 0;
 }
 
-/* Hint: What can you do with a media query and flexbox? */
-@media (max-width: 1250px) {
-    .pricing-container {
-        display: flex; 
-        flex-wrap: wrap;   
-    }
-}
-
 .pricing-container {
     display: flex;
     flex-direction: row;
@@ -23,6 +15,15 @@ body {
 }
 
 .pricing-container div {
+}
+
+/* Hint: What can you do with a media query and flexbox? */
+@media (max-width: 1250px) {
+    .pricing-container {
+        /* display: flex; 
+        flex-wrap: wrap;    */
+        flex-direction: column;
+    }
 }
 
 .pricing-plan {
